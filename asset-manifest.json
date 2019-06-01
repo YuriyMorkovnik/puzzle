@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.5aaba3d6.chunk.css",
-    "main.js": "/repository-name/static/js/main.238703ed.chunk.js",
-    "main.js.map": "/repository-name/static/js/main.238703ed.chunk.js.map",
-    "runtime~main.js": "/repository-name/static/js/runtime~main.f7634681.js",
-    "runtime~main.js.map": "/repository-name/static/js/runtime~main.f7634681.js.map",
-    "static/js/2.4dd5dd58.chunk.js": "/repository-name/static/js/2.4dd5dd58.chunk.js",
-    "static/js/2.4dd5dd58.chunk.js.map": "/repository-name/static/js/2.4dd5dd58.chunk.js.map",
-    "index.html": "/repository-name/index.html",
-    "precache-manifest.01cac10528e761c3096be17383cfab7f.js": "/repository-name/precache-manifest.01cac10528e761c3096be17383cfab7f.js",
-    "service-worker.js": "/repository-name/service-worker.js",
-    "static/css/main.5aaba3d6.chunk.css.map": "/repository-name/static/css/main.5aaba3d6.chunk.css.map"
+    "main.css": "/breakout-game/static/css/main.5aaba3d6.chunk.css",
+    "main.js": "/breakout-game/static/js/main.238703ed.chunk.js",
+    "main.js.map": "/breakout-game/static/js/main.238703ed.chunk.js.map",
+    "runtime~main.js": "/breakout-game/static/js/runtime~main.5546415a.js",
+    "runtime~main.js.map": "/breakout-game/static/js/runtime~main.5546415a.js.map",
+    "static/js/2.4dd5dd58.chunk.js": "/breakout-game/static/js/2.4dd5dd58.chunk.js",
+    "static/js/2.4dd5dd58.chunk.js.map": "/breakout-game/static/js/2.4dd5dd58.chunk.js.map",
+    "index.html": "/breakout-game/index.html",
+    "precache-manifest.03c92cfa191fdfffcdef2ac5a959eea2.js": "/breakout-game/precache-manifest.03c92cfa191fdfffcdef2ac5a959eea2.js",
+    "service-worker.js": "/breakout-game/service-worker.js",
+    "static/css/main.5aaba3d6.chunk.css.map": "/breakout-game/static/css/main.5aaba3d6.chunk.css.map"
   }
 }
