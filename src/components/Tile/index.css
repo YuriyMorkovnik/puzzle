@@ -1,0 +1,22 @@
+.tile-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 24%;
+    height: 24%;
+    border: 2px solid black;
+    border-radius: 5%;
+    transition: all 300ms ease-out;
+
+}
+
+
+.tile-title {
+    font-size: 7vh;
+}
+
+.true-position {
+    color: deepskyblue;
+}

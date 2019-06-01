@@ -1,0 +1,15 @@
+.tiles-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.tiles-wrapper {
+    display: flex;
+    flex-shrink: 0;
+    position: absolute;
+    width: 60vh;
+    height: 60vh;
+}
