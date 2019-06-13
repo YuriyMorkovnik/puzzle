@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100vh;
+    height: 60vmin;
+
 }
 
 .wrapper {
@@ -12,4 +12,10 @@
     position: absolute;
     width: 60vh;
     height: 60vh;
+
+}
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 100vw;
+    }
 }

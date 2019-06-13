@@ -31,3 +31,14 @@ export const saveState = (tiles) => {
 
 export const getState = () => JSON.parse(localStorage.getItem('tiles'));
 
+export const clearStorage = () => localStorage.removeItem('tiles');
+
+export const shuffleArray = (array) => {
+  return Array(array.length).fill(null).reduce(({ newArray, array }) => {
+    const randIndex = Math.ceil(Math.random() * array.length - 1);
+    const randItem = array[randIndex];
+    return { newArray: [...newArray, randItem], array: array.filter((item, i) => i !== randIndex) }
+  }, { newArray: [], array }).newArray;
+}
+
+export const getTiles = (tiles, positions) => tiles.map((item, i) => ({...item, position: positions[i]}));
