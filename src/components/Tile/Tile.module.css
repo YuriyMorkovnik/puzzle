@@ -1,4 +1,4 @@
-.tile-root {
+.root {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,10 +13,10 @@
 }
 
 
-.tile-title {
+.title {
     font-size: 7vh;
 }
 
-.true-position {
+.truePosition {
     color: deepskyblue;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css'
+import styles from './Tile.module.css'
 
 function Tile(props) {
   const {
@@ -17,9 +17,9 @@ function Tile(props) {
   return (
     <div
       style={style}
-      className="tile-root"
+      className={styles.root}
       onClick={onClick}>
-      <span className={`tile-title ${isTruePosition ? 'true-position' : ''}`}>{title}</span>
+      <span className={`${styles.title} ${isTruePosition ? styles.truePosition : ''}`}>{title}</span>
     </div>
   )
 }

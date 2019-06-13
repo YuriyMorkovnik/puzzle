@@ -2,13 +2,13 @@ import React from 'react';
 
 import Tile from '../Tile';
 
-import './index.css'
+import styles from './Tiles.module.css';
 
 function Tiles(props) {
   const { onClick, data } = props;
   return (
-    <div className="tiles-root">
-      <div className="tiles-wrapper">
+    <div className={styles.root}>
+      <div className={styles.wrapper}>
         {data.map(item => <Tile {...item} key={String(item.title)} onClick={onClick(item)}/>)}
       </div>
     </div>

@@ -1,4 +1,4 @@
-.tiles-root {
+.root {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.tiles-wrapper {
+.wrapper {
     display: flex;
     flex-shrink: 0;
     position: absolute;
